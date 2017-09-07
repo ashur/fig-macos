@@ -1,0 +1,7 @@
+# enable-shadow
+---
+
+- vars:
+    disable_shadow: "false"
+
+- extend: .screenshot-shadow

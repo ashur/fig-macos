@@ -1,0 +1,12 @@
+# screenshot-shadow
+---
+
+- name: disable-shadow
+  defaults:
+      action: write
+      domain: com.apple.screencapture
+      key: disable-shadow
+      value: -bool {{ disable_shadow }}
+
+- name: killall SystemUIServer
+  command: killall SystemUIServer

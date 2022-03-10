@@ -1,0 +1,12 @@
+# screenshot-thumbnail
+---
+
+- name: show-thumbnail
+  defaults:
+      action: write
+      domain: com.apple.screencapture
+      key: show-thumbnail
+      value: -bool {{ show_thumbnail }}
+
+- name: killall SystemUIServer
+  command: killall SystemUIServer

@@ -1,0 +1,7 @@
+# screenshot-thumbnail-off
+---
+
+- vars:
+    show_thumbnail: "false"
+
+- extend: .screenshot-thumbnail

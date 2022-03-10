@@ -9,7 +9,7 @@ A [Fig][fig] repository for adjusting macOS settings.
 1. Add this repository as a Fig app:
 
 ~~~
-$ fig add macos --url=https://github.com/ashur/fig-macos.git
+fig add macos --url=https://github.com/ashur/fig-macos.git
 ~~~
 
 [fig]: https://github.com/ashur/fig

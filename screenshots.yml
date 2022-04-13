@@ -1,0 +1,12 @@
+# screenshot-location
+---
+
+- name: screenshot location
+  defaults:
+      action: write
+      domain: com.apple.screencapture
+      key: location
+      value: ~/Downloads
+
+- include: screenshot-shadow-off
+- include: screenshot-thumbnail-off
